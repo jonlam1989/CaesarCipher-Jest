@@ -13,7 +13,7 @@ test('"hello" shifted by -1000 should be "vszzc"', () => {
 	expect(caesarCipher('hello', -1000)).toBe('vszzc');
 });
 
-test('"HellO" with uppercase shifted by 5 should be "Mjqqt"', () => {
+test('"HellO" with uppercase shifted by 5 should be "MjqqT"', () => {
 	expect(caesarCipher('HellO', 5)).toBe('MjqqT');
 });
 test('"hello, guys!!!" with punctuation shifted by 5 should be "mjqqt, lzdx!!!"', () => {
